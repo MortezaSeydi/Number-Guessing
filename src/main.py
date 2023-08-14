@@ -55,6 +55,7 @@ your score is {score}'
     """
     score -= 10
     guesses -= 1
+    
     secound_wrong = f"""your guess was wrong again !!
 this is your secound advice!! :
 ***your guess is {diff} numbers greater or lower than the number!!***
@@ -75,12 +76,15 @@ you have {guesses} chance to guess
 your guess was correct
 your score is {score}'
         """
+        
         score = 0
+        
         last_wrong = f"""your answer was wrong
 you lost the game!!!
 your score is {score}
 the number was {number}
         """
+        
         if player_guess == number:
             print(last_correct)
             
