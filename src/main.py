@@ -4,8 +4,6 @@ number = round(random.random()*20)
 score = 100
 guesses = 3
 
-print(number)
-
 first_input = f"""guess a number between 0 to 20 ==>:
 you have {guesses} chances and your score is {score}'
 """
